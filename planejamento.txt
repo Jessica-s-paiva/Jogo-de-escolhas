@@ -1,0 +1,38 @@
+INDEX: 
+header
+    animação de fundo
+    nav
+        - ???
+
+main
+    section
+        h1 com o título do jogo
+        h2 subtitulo do jogo
+        animação de fundo
+    section
+        p com a historia do jogo
+        h3 escolha seu personagem
+        3 img com evento de clique
+        p com nome de cada personagem
+
+footer
+    ícones de redes sociais
+    email
+    telefone
+
+PERSONAGENS:
+header
+    animação de fundo
+    nav
+        - ???
+
+main
+    section
+        img
+        pergunta
+        button
+
+footer
+    ícones de redes sociais
+    email
+    telefone
