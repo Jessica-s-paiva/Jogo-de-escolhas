@@ -1,0 +1,9 @@
+.imagem{
+    width: 250px;
+    height: 200px;
+}
+
+.personagens{
+    display: flex;
+    flex-direction: row;
+}
