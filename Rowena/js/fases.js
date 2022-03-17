@@ -1,12 +1,16 @@
 var contador = 0;
-function responder1() {
-    let resposta = prompt('Qual a alternativa correta?', 'A ou B');
 
+function contar(){
+    contador++;
+    return contador;
+}
+
+function responder() {
+    var resposta = prompt('Qual a alternativa correta?', 'A ou B');
     if(resposta != null){
         if(resposta == 'a'){
            window.location.assign('errado.html');
         }else if(resposta =='b'){
-            contador++;
             window.location.assign('certo.html');
             return contador;
         }else{
@@ -14,41 +18,16 @@ function responder1() {
         }
     }
 }
+
 function avanco() {
-    responder1(contador);
+    contar();
+    alert(contador)
     if(contador == 1){
+        contar();
         window.location.assign('fase-2.html');
-    }else if(contador == 2){
-        window.location.assign('fase-3.html');
-    }else{
-        window.location.assign('errado.html');
-    }
-}
-
-function responder2() {
-    let resposta = prompt('Qual a alternativa correta?', 'A ou B');
-    if(resposta != null){
-        if(resposta == 'a'){
-            window.location.assign('certo.html');
-            contador = contador + 1;
-        }else if(resposta =='b'){
-            window.location.assign('errado.html');
-        }else{
-            alert('Digite uma resposta válida =D')
+        alert(contador);
+        if(contador == 2){
+            window.location.assign('fase-3.html');
         }
     }
 }
-
-function responder3() {
-    let resposta = prompt('Qual a alternativa correta?', 'A ou B');
-    if(resposta != null){
-        if(resposta == 'a'){
-            window.location.assign('certo.html');
-        }else if(resposta =='b'){
-            window.location.assign('errado.html');
-        }else{
-            alert('Digite uma resposta válida =D')
-        }
-    }
-}
-
