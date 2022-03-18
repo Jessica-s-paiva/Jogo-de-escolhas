@@ -1,39 +1,67 @@
 function responder1() {
-    var resposta = prompt('Qual a alternativa correta?', 'A ou B');
-    if(resposta != null){
-        if(resposta == 'a'){
-            window.location.assign('errado.html');
-        }else if(resposta =='b'){            
-            window.location.assign('certo.html');
-        }else{
-            alert('Digite uma resposta válida =D')
+    tentativa = 3;
+    while (tentativa > 0) {
+        var resposta = prompt('Qual a alternativa correta?', 'A ou B');
+        if(resposta != null){
+            if(resposta == 'a' || resposta == 'c'){
+                tentativa--;
+                alert(`Você tem ${tentativa} tentativas restantes`);
+            }else if(resposta =='b'){    
+                window.location.assign('certo.html');        
+                break;
+            }else{
+                alert('Digite uma resposta válida =D');
+            }
         }
     }
+    if (tentativa == 0 ) {
+        alert('Suas chances acabaram');
+        window.location.assign('errado.html');
+    }
+
 }
 
 function responder2() {
-    var resposta = prompt('Qual a alternativa correta?', 'A ou B');
-    if(resposta != null){
-        if(resposta == 'a'){
-            window.location.assign('errado.html');
-        }else if(resposta =='b'){            
-            window.location.assign('certo-1.html');
-        }else{
-            alert('Digite uma resposta válida =D')
+    tentativa = 3;
+    while (tentativa > 0) {
+        var resposta = prompt('Qual a alternativa correta?', 'A ou B');
+        if(resposta != null){
+            if(resposta == 'a' || resposta == 'c'){
+                tentativa--;
+                alert(`Você tem ${tentativa} tentativas restantes`);
+            }else if(resposta =='b'){    
+                window.location.assign('certo-1.html');        
+                break;
+            }else{
+                alert('Digite uma resposta válida =D');
+            }
         }
+    }
+    if (tentativa == 0 ) {
+        alert('Suas chances acabaram');
+        window.location.assign('errado.html');
     }
 }
 
 function responder3() {
-    var resposta = prompt('Qual a alternativa correta?', 'A ou B');
-    if(resposta != null){
-        if(resposta == 'a'){
-            window.location.assign('errado.html');
-        }else if(resposta =='b'){            
-            window.location.assign('final.html');
-        }else{
-            alert('Digite uma resposta válida =D')
+    tentativa = 3;
+    while (tentativa > 0) {
+        var resposta = prompt('Qual a alternativa correta?', 'A ou B');
+        if(resposta != null){
+            if(resposta == 'a' || resposta == 'c'){
+                tentativa--;
+                alert(`Você tem ${tentativa} tentativas restantes`);
+            }else if(resposta =='b'){    
+                window.location.assign('final.html');        
+                break;
+            }else{
+                alert('Digite uma resposta válida =D');
+            }
         }
+    }
+    if (tentativa == 0 ) {
+        alert('Suas chances acabaram');
+        window.location.assign('errado.html');
     }
 }
 
@@ -43,4 +71,8 @@ function proximaFase() {
 
 function proximaFase1() {
     window.location.assign('fase-3.html');
+}
+
+function jogarNovamente() {
+    window.location.href='index.html';
 }
