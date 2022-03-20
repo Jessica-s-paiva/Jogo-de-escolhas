@@ -21,14 +21,14 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 750px;
+    height: 100%;
     width: 70%;
     padding: 90px 30px 30px 30px;
     border-radius: 50% 50% 0 0;
 }
 
 h1{
-    font-size: 160px;
+    font-size: 110px;
     padding: 20px;
     text-shadow: 10px 5px rgb(34, 34, 34);
     font-family: 'Tangerine', cursive;
@@ -37,18 +37,27 @@ h1{
 p{
     text-shadow: 2px 4px 2px #000000;
     font-family: 'Cookie', cursive;
-    font-size: 32px;
+    font-size: 26px;
 }
 
 button{
-    font-size: 46px;
-    padding: 10px 70px;
-    margin: 20px;
-    font-family: 'Tangerine', cursive;
-    font-weight: 900;
-    text-shadow: 2px 4px 2px #000000;
-    background-color: transparent;
-    border: 3px solid white;
-    border-radius: 5px;
+    font-size: 36px;
+    font-family: 'Cookie', cursive;
+    font-weight: 500;
+    text-shadow: 4px 4px 8px #000000;
+    background-color: #400101;
     color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 8px 4px;
+    cursor: pointer;
 }
+
+button:hover {
+    background-color: #D55208;
+    color: white;
+    transition: 1s;
+  }
