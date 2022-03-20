@@ -3,7 +3,56 @@
     height: 200px;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/book-28.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 .personagens{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/book-28.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    width: 70%;
+    padding: 90px 30px 30px 30px;
+    border-radius: 50% 50% 0 0;
+}
+
+h1{
+    font-size: 160px;
+    padding: 20px;
+    text-shadow: 10px 5px rgb(34, 34, 34);
+    font-family: 'Tangerine', cursive;
+}
+
+p{
+    text-shadow: 2px 4px 2px #000000;
+    font-family: 'Cookie', cursive;
+    font-size: 32px;
+}
+
+button{
+    font-size: 46px;
+    padding: 10px 70px;
+    margin: 20px;
+    font-family: 'Tangerine', cursive;
+    font-weight: 900;
+    text-shadow: 2px 4px 2px #000000;
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 5px;
+    color: white;
 }
