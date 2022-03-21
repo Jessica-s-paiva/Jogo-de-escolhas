@@ -14,42 +14,19 @@ header{
     padding: 5px;
 }
 
-h1{
-    font-size: 100px;
-    padding: 20px;
-    text-shadow: 10px 5px #400101;
-    font-family: 'Tangerine', cursive;
-}
-
 .imagem{
-    width: 230px;
-    height: 280px;
-    border: 1px solid black;
-    border-radius: 50%;
-    padding: 5px;
-    box-shadow: -1px 10px 10px #F2C230;
-}
-
-.imagem1{
     width: 300px;
-    height: 430px;
+    height: 300px;
     border: 1px solid black;
     border-radius: 50%;
     padding: 5px;
-    margin: 20px;
     box-shadow: -1px 10px 10px #F2C230;
-}
-
-h2{
-    font-size: 46px;
-    text-shadow: 2px 4px 2px #000000;
-    font-family: 'Tangerine', cursive;
 }
 
 p{
     text-shadow: 2px 4px 2px #000000;
     font-family: 'Cookie', cursive;
-    font-size: 26px;
+    font-size: 36px;
     padding: 10px;
 }
 
@@ -91,20 +68,6 @@ button:hover {
 section{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    background-image: url(../../img/book-28.gif);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    border-radius: 50% 50% 0 0;
-}
-
-.sessao{
-    display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     background-image: url(../../img/book-28.gif);
@@ -114,7 +77,9 @@ section{
     height: 100%;
     width: 100%;
     border-radius: 50% 50% 0 0;
+    padding: 20px;
 }
+
 div{
     padding: 10px 20px;
 }
