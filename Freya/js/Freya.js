@@ -3,7 +3,7 @@ function responder1() {
     while (tentativa > 0) {
         var resposta = prompt('Qual a alternativa correta?', 'A, B ou C');
         if(resposta != null){
-            if(resposta == 'a' || resposta == 'c'|| resposta =='A' || resposta =='C'){
+            if(resposta == 'a' || resposta =='A'){
                 tentativa--;
                 alert(`Você tem ${tentativa} tentativas restantes`);
             }else if(resposta =='b'|| resposta =='B'){    
@@ -24,9 +24,9 @@ function responder1() {
 function responder2() {
     tentativa = 3;
     while (tentativa > 0) {
-        var resposta = prompt('Qual a alternativa correta?', 'A, B ou C');
+        var resposta = prompt('Qual a alternativa correta?', 'A ou B');
         if(resposta != null){
-            if(resposta == 'a' || resposta == 'c'|| resposta =='A' || resposta =='C'){
+            if(resposta == 'a' || resposta == 'A'){
                 tentativa--;
                 alert(`Você tem ${tentativa} tentativas restantes`);
             }else if(resposta =='b'|| resposta =='B'){    
@@ -46,12 +46,12 @@ function responder2() {
 function responder3() {
     tentativa = 3;
     while (tentativa > 0) {
-        var resposta = prompt('Qual a alternativa correta?', 'A, B ou C');
+        var resposta = prompt('Qual a alternativa correta?', 'A ou B');
         if(resposta != null){
-            if(resposta == 'a' || resposta == 'c'|| resposta =='A' || resposta =='C'){
+            if(resposta == 'b' || resposta == 'B'){
                 tentativa--;
                 alert(`Você tem ${tentativa} tentativas restantes`);
-            }else if(resposta =='b'|| resposta =='B'){    
+            }else if(resposta =='a'|| resposta =='A'){    
                 window.location.assign('final.html');        
                 break;
             }else{
@@ -74,5 +74,5 @@ function proximaFase1() {
 }
 
 function jogarNovamente() {
-    window.location.href='../../inicio.html';
+    window.location.href='../../index.html';
 }
