@@ -1,0 +1,121 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px;
+    background-image: url(../../img/book-28.gif);
+    background-size: 100%;
+}
+
+.icones{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+h1{
+    font-size: 100px;
+    padding: 20px;
+    text-shadow: 10px 5px #400101;
+    font-family: 'Tangerine', cursive;
+}
+
+.imagem{
+    width: 230px;
+    height: 280px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: -1px 10px 10px #F2C230;
+}
+
+.imagem1{
+    width: 300px;
+    height: 430px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 20px;
+    box-shadow: -1px 10px 10px #F2C230;
+}
+
+h2{
+    font-size: 46px;
+    text-shadow: 2px 4px 2px #000000;
+    font-family: 'Tangerine', cursive;
+}
+
+p{
+    text-shadow: 2px 4px 2px #000000;
+    font-family: 'Cookie', cursive;
+    font-size: 26px;
+    padding: 10px;
+}
+
+button{
+    font-size: 36px;
+    font-family: 'Cookie', cursive;
+    font-weight: 500;
+    text-shadow: 4px 4px 8px #000000;
+    background-color: #400101;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 100px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #D55208;
+    color: white;
+    transition: 1s;
+  }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-image: url(../../img/book-28.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(../../img/book-28.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 50% 50% 0 0;
+}
+
+.sessao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../img/book-28.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 50% 50% 0 0;
+}
+div{
+    padding: 10px 20px;
+}
+
