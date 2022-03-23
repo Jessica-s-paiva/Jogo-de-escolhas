@@ -1,7 +1,7 @@
 function responder1() {
     tentativa = 3;
     while (tentativa > 0) {
-        var resposta = prompt('Qual a alternativa correta?', 'A, B ou C');
+        var resposta = prompt('Qual a alternativa correta?', 'A ou B');
         if(resposta != null){
             if(resposta == 'b' || resposta == 'B'){
                 tentativa--;
@@ -24,7 +24,7 @@ function responder1() {
 function responder2() {
     tentativa = 3;
     while (tentativa > 0) {
-        var resposta = prompt('Qual a alternativa correta?', 'A, B ou C');
+        var resposta = prompt('Qual a alternativa correta?', 'A ou B');
         if(resposta != null){
             if(resposta == 'b' || resposta == 'B'){
                 tentativa--;
@@ -46,7 +46,7 @@ function responder2() {
 function responder3() {
     tentativa = 3;
     while (tentativa > 0) {
-        var resposta = prompt('Qual a alternativa correta?', 'A, B ou C');
+        var resposta = prompt('Qual a alternativa correta?', 'A ou B');
         if(resposta != null){
             if(resposta == 'a' || resposta == 'A'){
                 tentativa--;

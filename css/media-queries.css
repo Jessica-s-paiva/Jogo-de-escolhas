@@ -1,0 +1,31 @@
+@media (max-width: 700px){
+    h1{
+        font-size: 36px;
+    }
+
+    p{
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .paragrafo{
+        text-align: center;
+    }
+    button{
+        font-size: 20px;
+    }
+
+    .imagem{
+        width: 120px;
+        height: 180px;
+        margin: 0 20px;
+    }
+
+    .personagens{
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        background-image: none;
+
+    }
+}
