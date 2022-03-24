@@ -23,9 +23,14 @@
 
     .personagens{
         flex-direction: row;
-        justify-content: space-evenly;
-        align-items: flex-start;
+        justify-content: space-around;
+        align-items: center;
         background-image: none;
-
     }
+
+    section{
+        width: 100%;
+    }
+
+
 }

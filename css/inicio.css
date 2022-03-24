@@ -13,6 +13,7 @@ header{
     height: 40px;
     padding: 5px;
 }
+
 .imagem{
     width: 240px;
     height: 340px;
@@ -32,7 +33,7 @@ header{
     width: 100%;
     background-image: url(../img/book-28.gif);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .personagens{
