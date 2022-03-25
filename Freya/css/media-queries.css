@@ -26,6 +26,12 @@
         background-image: none;
     }
 
+    section{
+        flex-direction: column;
+        background-image: none;
+        justify-content: center;
+    }
+
     .imagem{
         width: 120px;
         height: 180px;

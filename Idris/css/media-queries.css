@@ -17,6 +17,12 @@
         margin-bottom: 10px;
     }
 
+    section{
+        flex-direction: column;
+        background-image: none;
+        justify-content: center;
+    }
+
     .sessao{
         flex-direction: column;
         background-image: none;

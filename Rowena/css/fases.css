@@ -1,11 +1,20 @@
 header{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-evenly;
     align-items: center;
     padding: 5px;
     background-image: url(../../img/book-28.gif);
     background-size: 100%;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+    padding: 5px;
 }
 
 .icones{
@@ -74,7 +83,7 @@ button:hover {
     background-color: #D55208;
     color: white;
     transition: 1s;
-  }
+}
 
 .container{
     display: flex;
@@ -120,3 +129,21 @@ div{
     padding: 10px 20px;
 }
 
+.botao{
+    font-size: 20px;
+    font-family: 'Cookie', cursive;
+    font-weight: 500;
+    text-shadow: 4px 4px 8px #000000;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 2px 80px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.botao:hover {
+    color: white;
+    transition: 1s;
+}

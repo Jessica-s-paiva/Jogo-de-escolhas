@@ -74,5 +74,5 @@ function proximaFase1() {
 }
 
 function jogarNovamente() {
-    window.location.href='../../inicio.html';
+    window.location.href='../../index.html';
 }
