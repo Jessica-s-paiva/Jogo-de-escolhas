@@ -1,5 +1,5 @@
 function responder1() {
-    tentativa = 3;
+    var tentativa = 3;
     while (tentativa > 0) {
         var resposta = prompt('Qual a alternativa correta?', 'A ou B');
         if(resposta != null){
@@ -22,7 +22,7 @@ function responder1() {
 }
 
 function responder2() {
-    tentativa = 3;
+    var tentativa = 3;
     while (tentativa > 0) {
         var resposta = prompt('Qual a alternativa correta?', 'A ou B');
         if(resposta != null){
@@ -44,7 +44,7 @@ function responder2() {
 }
 
 function responder3() {
-    tentativa = 3;
+    var tentativa = 3;
     while (tentativa > 0) {
         var resposta = prompt('Qual a alternativa correta?', 'A ou B');
         if(resposta != null){
